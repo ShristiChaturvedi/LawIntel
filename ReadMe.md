@@ -139,19 +139,19 @@ streamlit run app.py
 
 ### 🏠 Home
 
-![Home](screenshort/home.png)
+![Home](home.png)
 
 ---
 
 ### 🔍 Legal Search
 
-![Legal Search](screenshort/legal_search.png)
+![Legal Search](legal_search.png)
 
 ---
 
 ### 📄 Legal Summary
 
-![Legal Summary](screenshort/legal_summary.png)
+![Legal Summary](legal_summary.png)
 
 ---
 
