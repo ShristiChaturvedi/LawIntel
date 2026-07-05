@@ -88,7 +88,7 @@ LawIntel/
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Python
 - Streamlit
@@ -101,7 +101,7 @@ LawIntel/
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 Clone the repository
 
@@ -135,24 +135,29 @@ streamlit run app.py
 
 ---
 
-## 📷 Screenshots
+##  Screenshots
 
-### Home
+### 🏠 Home
 
-(Add Screenshot)
+![Home](screenshots/home.png)
 
-### Legal Search
+---
 
-(Add Screenshot)
+### 🔍 Legal Search
 
-### Legal Summary
+![Legal Search](screenshots/legal_search.png)
 
-(Add Screenshot)
+---
 
-### MCQ Generator
+### 📄 Legal Summary
 
-(Add Screenshot)
+![Legal Summary](screenshots/legal_summary.png)
 
+---
+
+### ❓ MCQ Generator
+
+![MCQ Generator](screenshots/mcq_generator.png)
 ---
 
 ## 🎯 Future Improvements
@@ -170,7 +175,7 @@ streamlit run app.py
 
 **Shristi Chaturvedi**
 
-B.Tech CSE Student
+B.Tech IT(AIAR) Student
 
 Interested in AI, Retrieval-Augmented Generation, Legal AI, and Intelligent Information Retrieval.
 
