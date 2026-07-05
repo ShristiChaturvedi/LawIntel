@@ -123,16 +123,12 @@ h2,h3{
    Text Area
 ========================================================= */
 
-div[data-testid="stTextArea"] label{
-    color:#FFFFFF !important;
-    font-size:18px !important;
-    font-weight:600 !important;
-}
-
 div[data-testid="stTextArea"] textarea{
 
     background:#1E293B !important;
     color:#FFFFFF !important;
+
+    caret-color:#FFFFFF !important;
 
     border-radius:12px !important;
     border:1px solid #475569 !important;
@@ -141,12 +137,6 @@ div[data-testid="stTextArea"] textarea{
     line-height:1.6 !important;
 
     padding:18px !important;
-}
-
-div[data-testid="stTextArea"] textarea::placeholder{
-
-    color:#94A3B8 !important;
-    font-size:18px !important;
 }
 
 
