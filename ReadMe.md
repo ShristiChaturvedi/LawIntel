@@ -137,27 +137,35 @@ streamlit run app.py
 
 ##  Screenshots
 
-### 🏠 Home
+### 🏠 Home Page
 
-![Home](home.png)
+<p align="center">
+  <img src="screenshort/home.png" width="900">
+</p>
 
 ---
 
 ### 🔍 Legal Search
 
-![Legal Search](legal_search.png)
+<p align="center">
+  <img src="screenshort/legal_search.png" width="900">
+</p>
 
 ---
 
 ### 📄 Legal Summary
 
-![Legal Summary](legal_summary.png)
+<p align="center">
+  <img src="screenshort/summary.png" width="900">
+</p>
 
 ---
 
 ### ❓ MCQ Generator
 
-![MCQ Generator](screenshots/mcq_generator.png)
+<p align="center">
+  <img src="screenshort/mcq_generator.png" width="900">
+</p>
 ---
 
 ## 🎯 Future Improvements
