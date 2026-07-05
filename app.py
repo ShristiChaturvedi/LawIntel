@@ -24,9 +24,9 @@ st.markdown("""
    Hide Streamlit Elements
 ========================================================= */
 
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-header {visibility: hidden;}
+#MainMenu {visibility:hidden;}
+footer {visibility:hidden;}
+header {visibility:hidden;}
 
 
 /* =========================================================
@@ -34,7 +34,8 @@ header {visibility: hidden;}
 ========================================================= */
 
 .stApp{
-    background-color:#0F172A;
+    background:#0F172A;
+    color:#F8FAFC;
 }
 
 
@@ -66,26 +67,28 @@ section[data-testid="stSidebar"] .block-container{
 /* Sidebar Title */
 
 section[data-testid="stSidebar"] h1{
-    color:white;
-    font-size:34px;
-    font-weight:800;
+    color:#FFFFFF !important;
+    font-size:34px !important;
+    font-weight:800 !important;
 }
 
-/* Sidebar Labels */
+/* Sidebar Text */
 
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] span,
 section[data-testid="stSidebar"] label{
-    color:white !important;
-    font-size:17px;
-    font-weight:600;
+    color:#F8FAFC !important;
+    font-size:17px !important;
+    font-weight:600 !important;
 }
 
-/* Sidebar Radio Buttons */
+/* Radio labels */
 
-section[data-testid="stSidebar"] div[role="radiogroup"]{
-    padding-top:5px;
+section[data-testid="stSidebar"] div[role="radiogroup"] label{
+    color:#F8FAFC !important;
 }
 
-/* Sidebar Divider */
+/* Divider */
 
 section[data-testid="stSidebar"] hr{
     border-color:#374151;
@@ -93,17 +96,17 @@ section[data-testid="stSidebar"] hr{
 
 
 /* =========================================================
-   Title
+   Headings
 ========================================================= */
 
 h1{
-    color:white !important;
+    color:#FFFFFF !important;
     font-size:52px !important;
     font-weight:800 !important;
 }
 
 h2,h3{
-    color:white !important;
+    color:#FFFFFF !important;
 }
 
 
@@ -112,7 +115,7 @@ h2,h3{
 ========================================================= */
 
 [data-testid="stCaptionContainer"]{
-    color:#9CA3AF !important;
+    color:#CBD5E1 !important;
 }
 
 
@@ -120,18 +123,21 @@ h2,h3{
    Text Area
 ========================================================= */
 
+div[data-testid="stTextArea"] label{
+    color:#FFFFFF !important;
+    font-size:18px !important;
+    font-weight:600 !important;
+}
+
 div[data-testid="stTextArea"] textarea{
 
     background:#1E293B !important;
-
-    color:white !important;
+    color:#FFFFFF !important;
 
     border-radius:12px !important;
-
-    border:1px solid #374151 !important;
+    border:1px solid #475569 !important;
 
     font-size:20px !important;
-
     line-height:1.6 !important;
 
     padding:18px !important;
@@ -139,8 +145,7 @@ div[data-testid="stTextArea"] textarea{
 
 div[data-testid="stTextArea"] textarea::placeholder{
 
-    color:#9CA3AF !important;
-
+    color:#94A3B8 !important;
     font-size:18px !important;
 }
 
@@ -151,28 +156,24 @@ div[data-testid="stTextArea"] textarea::placeholder{
 
 .stButton>button{
 
-    background:#2563EB;
-
-    color:white;
+    background:#2563EB !important;
+    color:white !important;
 
     border:none;
-
     border-radius:12px;
 
-    height:52px;
+    width:180px;
+    height:56px;
 
-    width:170px;
-
-    font-size:18px;
-
+    font-size:20px;
     font-weight:700;
 
-    transition:0.3s;
+    transition:0.25s;
 }
 
 .stButton>button:hover{
 
-    background:#1D4ED8;
+    background:#1D4ED8 !important;
 
     transform:translateY(-2px);
 }
@@ -185,35 +186,34 @@ div[data-testid="stTextArea"] textarea::placeholder{
 div[data-testid="stMetric"]{
 
     background:#1E293B;
+    border:1px solid #334155;
 
     border-radius:14px;
 
-    padding:16px;
-
-    border:1px solid #334155;
+    padding:18px;
 }
 
 div[data-testid="stMetricLabel"]{
 
-    font-size:16px;
+    color:#CBD5E1 !important;
 
-    font-weight:600;
+    font-size:16px !important;
 
-    color:#CBD5E1;
+    font-weight:600 !important;
 }
 
 div[data-testid="stMetricValue"]{
 
-    font-size:34px;
+    color:#FFFFFF !important;
 
-    font-weight:700;
+    font-size:34px !important;
 
-    color:white;
+    font-weight:700 !important;
 }
 
 
 /* =========================================================
-   Horizontal Line
+   Horizontal Rule
 ========================================================= */
 
 hr{
