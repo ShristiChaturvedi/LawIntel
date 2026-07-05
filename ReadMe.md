@@ -66,9 +66,6 @@ LawIntel/
 ├── README.md
 ├── LICENSE
 │
-├── assets/
-│   └── logo.png
-│
 ├── data/
 │   ├── Constitution.pdf
 │   ├── ipc.pdf
