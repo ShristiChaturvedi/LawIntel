@@ -184,33 +184,28 @@ div[data-testid="stTextArea"] textarea::placeholder{
 ========================================================= */
 
 div[data-testid="stMetric"]{
-
     background:#1E293B;
     border:1px solid #334155;
-
     border-radius:14px;
-
     padding:18px;
 }
 
-div[data-testid="stMetricLabel"]{
-
-    color:#CBD5E1 !important;
-
-    font-size:16px !important;
-
+/* Metric label */
+div[data-testid="stMetric"] label,
+div[data-testid="stMetric"] p,
+div[data-testid="stMetric"] span{
+    color:#F8FAFC !important;
+    opacity:1 !important;
+    font-size:17px !important;
     font-weight:600 !important;
 }
 
-div[data-testid="stMetricValue"]{
-
+/* Metric value */
+div[data-testid="stMetric"] [data-testid="stMetricValue"]{
     color:#FFFFFF !important;
-
     font-size:34px !important;
-
     font-weight:700 !important;
 }
-
 
 /* =========================================================
    Horizontal Rule
