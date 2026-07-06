@@ -118,25 +118,40 @@ h2,h3{
     color:#CBD5E1 !important;
 }
 
-
 /* =========================================================
-   Text Area
+   TEXT AREA
 ========================================================= */
 
-div[data-testid="stTextArea"] textarea{
+div[data-testid="stTextArea"] label{
+    color:white !important;
+    font-size:22px !important;
+    font-weight:700 !important;
+}
 
+div[data-testid="stTextArea"] textarea{
     background:#1E293B !important;
+
     color:#FFFFFF !important;
+
+    -webkit-text-fill-color:#FFFFFF !important;
 
     caret-color:#FFFFFF !important;
 
-    border-radius:12px !important;
-    border:1px solid #475569 !important;
+    font-size:22px !important;
+    font-weight:600 !important;
 
-    font-size:20px !important;
     line-height:1.6 !important;
 
+    border:1px solid #475569 !important;
+    border-radius:12px !important;
+
     padding:18px !important;
+}
+
+div[data-testid="stTextArea"] textarea::placeholder{
+    color:#94A3B8 !important;
+    opacity:1 !important;
+    font-size:20px !important;
 }
 
 
